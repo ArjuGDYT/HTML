@@ -1,3 +1,7 @@
+.Header{
+    color:white;
+    font-size:25px;
+}
 .Introduction{
 font-family:monospace;
 color:white;
@@ -5,11 +9,13 @@ padding:10px;
 text-align:center;
 }
 .Images{
+color:white;
 text-align:center;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .Parts-Needed{
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:white;
 font-size:20px;
 padding:20px;
 text-align:center;
