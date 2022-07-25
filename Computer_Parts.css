@@ -1,0 +1,13 @@
+.carousel-indicators{
+    display:inline-block;text-align:center;
+}
+.carousel-inner{
+    display:inline-block;text-align:center;
+}
+carousel-control-prev{
+    top:100px;right:100px;
+}
+
+body{
+    background-color:black;
+}
