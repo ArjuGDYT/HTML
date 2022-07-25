@@ -25,7 +25,12 @@ text-align:center;
 text-align:center;
 font-size:20px;
 color:white;
-
+}
+.accordion{
+    background-color: black;
+}
+.panel-default > .panel-heading {
+    background-color:#000;
 }
 body{
 background-image: url(https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-26496.jpg?w=2000);
