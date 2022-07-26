@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Computer Stuff </title>
+        <title> Computer Parts </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="Computer_Parts.css">
     </head>
@@ -17,39 +17,78 @@
         <a href="https://www.cgdirector.com/power-supply-guide/" target="_blank"><button type="button" class="btn btn-outline-warning">PSU</button></a>
         <a href="https://www.pcworld.com/article/394981/pick-the-perfect-motherboard-with-these-5-tips.html" target="_blank"><button type="button" class="btn btn-outline-info">Motherboard</button></a>
         <a href="https://www.pcmag.com/how-to/pc-cooling-101-how-to-buy-the-right-air-or-water-cooler-for-your-desktop" target="_blank"><button type="button" class="btn btn-outline-light">Cooling</button></a>
-        <a href="https://techguided.com/how-to-choose-a-pc-case/" target="_blank"><button type="button" class="btn btn-outline-dark">PC Cases</button></a>
+        <a href="https://techguided.com/how-to-choose-a-pc-case/" target="_blank"><button type="button" class="btn btn-outline-primary">PC Cases</button></a>
     </div>
   </nav>
   
   <!-- As a heading -->
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1">Computer Parts</span>
+      <div class="row justify-content-center">
+        <div class="col-7">
+          <span class="navbar-brand mb-0 h1">Pick on any of the buttons for guides!</span>
+        </div>
+      </div>
+      <div class="row justify-content-start">
+        <div class="col-6">
+          <a href="PC.html" target="_blank"><button type="button" class="btn btn-outline-light"> Home </button></a>
+        </div>
+      </div>
     </div>
   </nav>
-
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="Header">
+  <header> <h2>Parts</h2> </header>
+  </div>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://hardwarecanucks.com/wp-content/uploads/Cool-PC-Accessories-9.jpg" style="width:500px">
+        <img src="https://voltcave.com/wp-content/uploads/2021/02/motherboard-cpu-combo-featured-image.jpg" style="width:700px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>CPUs and Motherboards</h5>
+          <p>The control center of any PC</p>
+        </div>
       </div>
       <div class="carousel-item">
-        <img src="https://pbblogassets.s3.amazonaws.com/uploads/2020/07/13110748/Build-an-editing-PC.jpg" style="width:500px">
+        <img src="https://www.newegg.com/insider/wp-content/uploads/2020/09/MSI_3080_11.jpg" style="width:700px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>GPU</h5>
+          <p>What turns that processing into something you can see</p>
+        </div>
       </div>
       <div class="carousel-item">
-        <img src="https://i.pinimg.com/originals/f8/4c/cd/f84ccd015b50025c09daee318b545cf4.jpg" style="width:500px">
+        <img src="https://www.pcworld.com/wp-content/uploads/2022/01/storage-and-ram-together.jpg?quality=50&strip=all" style="width:700px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>RAM & Storage</h5>
+          <p>You don't have to remember or save anything, they'll do it for you</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://static.techspot.com/articles-info/1967/images/2020-02-02-image.jpg" style="width:700px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>PSU</h5>
+          <p>What gives your PC the juice to keep going</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.pcguide.com/wp-content/uploads/2019/03/Best-Case-Fan.jpg" style="width:700px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cooling and PC case</h5>
+          <p>Keeps everything cool in the PC while protecting all the parts in style</p>
+        </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>

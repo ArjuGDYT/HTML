@@ -7,7 +7,10 @@
 carousel-control-prev{
     top:100px;right:100px;
 }
-
+.Header{
+    color:white;
+    text-align:center;
+}
 body{
     background-color:black;
 }

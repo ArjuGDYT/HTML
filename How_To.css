@@ -1,0 +1,16 @@
+.Header{
+    font-family:monospace;
+    color:white;
+    text-align:center;
+}
+.Video{
+    width:800px;
+    height:450px;
+    margin:auto;
+}
+body{
+    background-image:url(https://wallpaperaccess.com/full/2848635.png)
+}
+.d-grid gap-2{
+    margin:auto;
+}
