@@ -27,9 +27,13 @@ font-size:20px;
 color:white;
 }
 .Accordion{
-    background-color: black;
-    display:inline-block;
+    display: flex;
+    justify-content: center;
 } 
+.accordion-flush{
+    background: red !important;
+    }
+
 body{
 background-image: url(https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-26496.jpg?w=2000);
 }

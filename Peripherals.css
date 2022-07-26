@@ -1,0 +1,13 @@
+.Header{
+    color:white;
+    text-align:center;
+}
+.carousel-indicators{
+    display:inline-block;text-align:center;
+}
+.carousel-inner{
+    display:inline-block;text-align:center;
+}
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-thumb.jpg);
+}
