@@ -24,7 +24,8 @@ text-align:center;
 .Links{
 text-align:center;
 font-size:20px;
-color:white;
+display: flex;
+justify-content: center;
 }
 .Accordion{
     display: flex;

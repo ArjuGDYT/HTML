@@ -14,3 +14,9 @@ body{
 .d-grid gap-2{
     margin:auto;
 }
+.Links{
+text-align:center;
+font-size:20px;
+display: flex;
+justify-content: center;
+}

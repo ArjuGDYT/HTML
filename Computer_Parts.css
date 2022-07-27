@@ -14,3 +14,9 @@ carousel-control-prev{
 body{
     background-color:black;
 }
+.Links{
+text-align:center;
+font-size:20px;
+display: flex;
+justify-content: center;
+}
