@@ -27,6 +27,7 @@ font-size:20px;
 display: flex;
 justify-content: center;
 }
+
 .Accordion{
     display: flex;
     justify-content: center;
@@ -34,7 +35,11 @@ justify-content: center;
 .accordion-flush{
     background: red !important;
     }
-
+.Navigation{
+    display:flex;
+    justify-content:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 body{
 background-image: url(https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-26496.jpg?w=2000);
 }
